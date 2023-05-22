@@ -1,2 +1,5 @@
-# calendar-spread-time-series-forecasting
-Time Series Forecasting in Calendar Spread Strategies: An Application in the Argentine Corn Market
+# Time Series Forecasting in Calendar Spread Strategies: An Application in the Argentine Corn Market
+
+To navigate the complexities of calendar spread trading and identify profitable opportunities, traders have turned to the power of time series forecasting. By analyzing historical market data and applying advanced forecasting techniques, traders can gain valuable insights into future price movements and make more informed trading decisions. We analyze calendar spread strategies on futures in the Argentine market (Matba Rofex) using Meta Prophet, a cutting-edge tool that simplifies the forecasting process and provides accurate predictions for time series data.
+
+The code can be modified in order to analyze other products, months, or years. In the folder 'Data' you can find the historical prices for corn, soy, and wheat from 2010 to the date (21–5–2023). Feel free to replace the parameters to analyze calendar spreads with different combinations of products and months. Remember to refresh the latest contracts.
