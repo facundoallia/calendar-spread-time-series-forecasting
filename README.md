@@ -6,9 +6,10 @@ To navigate the complexities of calendar spread trading and identify profitable 
 
 In this repository we analyze possible calendar spread strategies in the Argentine derivatives market (MatbaRofex). The purpose of the developed code is to serve to analyze different strategies that combine futures of agricultural products, specifically soybeans, wheat and corn.
 
-## An Application in the Argentine Corn Market
+## [An Application in the Argentine Corn Market](An%20Application%20in%20the%20Argentine%20Corn%20Market.ipynb)
 
-In the file "An Application in the Argentine Corn Market.ipynb" an analysis is proposed of a strategy that combines the purchase of a corn futures contract for April 2024 and the simultaneous sale of a corn contract for December 2023 seeking to obtain a gain in the face of a possible increase in the differential between the value of both.
+
+In the file `An Application in the Argentine Corn Market.ipynb` an analysis is proposed of a strategy that combines the purchase of a corn futures contract for April 2024 and the simultaneous sale of a corn contract for December 2023 seeking to obtain a gain in the face of a possible increase in the differential between the value of both.
 
 Historical price data is processed, the strategy is formulated and possible future values are predicted using a time series forecasting model from the Prophet library.
 
@@ -21,12 +22,12 @@ The code can be modified in order to analyze other products, months, or years. I
 
 ## Analyzer
 
-In the "analyzer.py" file there are functions that can be used to access the code easily:
+In the `analyzer.py` file there are functions that can be used to access the code easily:
 
-process_product_data(): receives product, contract month, start year and end year as parameters and returns a dataframe with the processed closing prices.
+`process_product_data()`: receives product, contract month, start year and end year as parameters and returns a dataframe with the processed closing prices.
 
-plot_future(): receives product, contract month, start year and end year as parameters and returns a matplotlib plot of the analyzed future.
+`plot_future()`: receives product, contract month, start year and end year as parameters and returns a matplotlib plot of the analyzed future.
 
-make_forecasts(): receives as parameters the products to analyze from a possible pairs strategy (like a calendar spread but also accepts combinations of products), months of the contracts, start and end years and period to forecast. Returns a dataframe with the forecasts made by Prophet based on the historical prices of the selected products of the analyzed period.
+`make_forecasts()`: receives as parameters the products to analyze from a possible pairs strategy (like a calendar spread but also accepts combinations of products), months of the contracts, start and end years and period to forecast. Returns a dataframe with the forecasts made by Prophet based on the historical prices of the selected products of the analyzed period.
 
-plot_forecast_data(): receives as parameters the products to be analyzed from a possible pair strategy (like a calendar spread but also accepts combinations of products), months of the contracts, start and end years and period to forecast. Returns a graph of the forecasts.
+`plot_forecast_data()`: receives as parameters the products to be analyzed from a possible pair strategy (like a calendar spread but also accepts combinations of products), months of the contracts, start and end years and period to forecast. Returns a graph of the forecasts.
