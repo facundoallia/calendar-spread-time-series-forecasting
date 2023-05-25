@@ -8,7 +8,7 @@ In this repository we analyze possible calendar spread strategies in the Argenti
 
 ## An Application in the Argentine Corn Market
 
-In the file [An Application in the Argentine Corn Market](An%20Application%20in%20the%20Argentine%20Corn%20Market.ipynb)an analysis is proposed of a strategy that combines the purchase of a corn futures contract for April 2024 and the simultaneous sale of a corn contract for December 2023 seeking to obtain a gain in the face of a possible increase in the differential between the value of both.
+In the file [An Application in the Argentine Corn Market](An%20Application%20in%20the%20Argentine%20Corn%20Market.ipynb) an analysis is proposed of a strategy that combines the purchase of a corn futures contract for April 2024 and the simultaneous sale of a corn contract for December 2023 seeking to obtain a gain in the face of a possible increase in the differential between the value of both.
 
 Historical price data is processed, the strategy is formulated and possible future values are predicted using a time series forecasting model from the Prophet library.
 
