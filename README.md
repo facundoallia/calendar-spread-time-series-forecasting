@@ -14,6 +14,8 @@ Historical price data is processed, the strategy is formulated and possible futu
 
 ![plot_corn_apr_vs_dec](https://github.com/facundoallia/calendar-spread-time-series-forecasting/raw/main/Assets/plot_corn_apr_vs_dec.png)
 
+![plot_corn_apr_vs_dec_forecast_smoothed](https://github.com/facundoallia/calendar-spread-time-series-forecasting/raw/main/Assets/plot_corn_apr_vs_dec_forecast_smoothed.png)
+
 
 The code can be modified in order to analyze other products, months, or years. In the folder 'Data' you can find the historical prices for corn, soy, and wheat from 2010 to the date (21–5–2023). Feel free to replace the parameters to analyze calendar spreads with different combinations of products and months. Remember to refresh the latest contracts.
 
