@@ -6,10 +6,9 @@ To navigate the complexities of calendar spread trading and identify profitable 
 
 In this repository we analyze possible calendar spread strategies in the Argentine derivatives market (MatbaRofex). The purpose of the developed code is to serve to analyze different strategies that combine futures of agricultural products, specifically soybeans, wheat and corn.
 
-## [An Application in the Argentine Corn Market](An%20Application%20in%20the%20Argentine%20Corn%20Market.ipynb)
+## An Application in the Argentine Corn Market
 
-
-In the file `An Application in the Argentine Corn Market.ipynb` an analysis is proposed of a strategy that combines the purchase of a corn futures contract for April 2024 and the simultaneous sale of a corn contract for December 2023 seeking to obtain a gain in the face of a possible increase in the differential between the value of both.
+In the file [An Application in the Argentine Corn Market](An%20Application%20in%20the%20Argentine%20Corn%20Market.ipynb)an analysis is proposed of a strategy that combines the purchase of a corn futures contract for April 2024 and the simultaneous sale of a corn contract for December 2023 seeking to obtain a gain in the face of a possible increase in the differential between the value of both.
 
 Historical price data is processed, the strategy is formulated and possible future values are predicted using a time series forecasting model from the Prophet library.
 
@@ -22,7 +21,7 @@ The code can be modified in order to analyze other products, months, or years. I
 
 ## Analyzer
 
-In the `analyzer.py` file there are functions that can be used to access the code easily:
+In the [Enlace al archivo analyzer.py](analyzer.py) file there are functions that can be used to access the code easily:
 
 `process_product_data()`: receives product, contract month, start year and end year as parameters and returns a dataframe with the processed closing prices.
 
