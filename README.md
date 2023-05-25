@@ -21,7 +21,7 @@ The code can be modified in order to analyze other products, months, or years. I
 
 ## Analyzer
 
-In the [Enlace al archivo analyzer.py](analyzer.py) file there are functions that can be used to access the code easily:
+In the [analyzer](analyzer.py) file there are functions that can be used to access the code easily:
 
 `process_product_data()`: receives product, contract month, start year and end year as parameters and returns a dataframe with the processed closing prices.
 
